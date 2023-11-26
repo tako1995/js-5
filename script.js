@@ -1,7 +1,17 @@
 "use strict";
 
 // Ex: 1
+
+
+
 // Ex: 2
+
+let array1 = [ "hello1", 14,24, "hello2" ]
+
+let newArray1 = array1.filter ( (item) => typeof item == "numbers") ;
+
+console.log(newArray1);
+
 // Ex: 3
 
 let array2 = [14, 150, "css", null, "javascript", 25];
